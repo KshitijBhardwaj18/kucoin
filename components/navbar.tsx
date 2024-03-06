@@ -19,7 +19,7 @@ const navItems = [
 
 const Navbar: React.FC<navbarProps> = () => {
   return (
-    <div className="h-[64px] bg-white flex flex-col justify-center border-b drop-shadow">
+    <div className="h-[64px] bg-white flex flex-col justify-center border-b drop-shadow sticky">
       <div className="h-full mx-[24px] flex justify-between">
         <div className=" flex flex-col justify-center">
           <Image alt="logo" src="/images/logo.png" width={81} height={60.75} />
